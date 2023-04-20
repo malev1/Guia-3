@@ -1,0 +1,81 @@
+
+____________________________ESTRUCTURAS DE CONTROL_________________________________
+
+Antes que nada, definimos las variables. En este caso tipo entera (int).
+Luego pedimos un Scanner leer luego del sout para la calificacion de la pelicula que le dará el usuario.
+Para hacer LECTURA DE UN ENTERO: nombrevariable = leer.nextInt();
+
+RUN FILE (shift + f6)
+para ejecutar el file que estamos usando, teniendo varias main class en un paquete. 
+
+DEBUG 
+Función Paso a Paso, pudiendo ver los valores de las variables y expresiones abajo. 
+Podemos ver las variables en la consola abajo.
+Podemos añadir mas expresiones (inspeccion) de una variable. 
+*Ej en opinion: click derecho -> new watch -> se agrega a la consola un boolean.
+
+STEP OVER (f8)
+Avanzar paso a paso luego de ejecutado el debug.
+
+BREAK POINT 
+Puntos de interrupcion, donde queremos que se detenga el codigo para luego continuar con el paso a paso. 
+Identificamos nro de linea y le damos a la opcion.
+El programa se detiene alli cuando seleccionamos DEBUG. 
+Podemos tener la cantidad que necesitemos.
+Podemos incluirlo en una linea donde se cumple la condicion. 
+(breakpoint->propiedades. condiciones: la que nos hace falta).
+1°Debug 2°Se corta en el breakpoint 
+
+
+________CONDICIONALES________________________________________________________
+
+-IF = si 
+
+-ELSE = sino
+
+-ELSE IF = sino si 
+
+Permite CONCATENAR (si no se cumple la condicion dada, tenemos esta otra) expresiones condicionales una debajo de la otra. NO ANIDAR. 
+(Recordar que anidar es meter una condicion dentro de otra, como el ej de este video que es un if opinion con un swtich adentro)
+Ej: en el programa puntuación pelicula, (ELSE IF) si opinion <0 {
+un sout diciendo lamentando la puntuacion tan baja o que no es un nro valido 
+}
+Se pueden poner varios y uno debajo del otro 
+
+
+-SEGÚN (switch) + (nombrevariable) {
+  
+  *Si queremos hacer que se ejecute lo mismo para dos casos ponemos:
+	case 1:
+	case 2:
+	  System.out.println("adsgvasdh")
+   *Si queremos que cuando agarre el case correcto, frene ahi, agregamos un BREAK luego de cada sout. 
+
+  *BREAK: necesario cuando necesitamos que una vez ejecutado el bloque de codigo en switch, se detenga la ejecucion alli y no siga con el proximo case. 
+	El caso en particular termina ahi.
+	Detiene la ejecucion del condicional switch. 
+	Si NO lo PONEMOS avanza con el caso siguiente e imprime el mensaje de ese mismo. 
+
+
+-DEFAULT (De otro modo del Según)
+  Si ningun caso de arriba se cumple, se ejecuta lo que este escrito en default. 
+Ej pelicula: que la puntuacion ingresada sea un nro no comprendido entre 1 a 5.
+	}
+
+
+
+
+____________BUCLES Y SENTENCIAS DE SALTO___________________________________
+
+https://www.youtube.com/watch?v=vG7DsUP22mY&ab_channel=EggCooperation
+
+SENTENCIAS DE SALTO
+Comando o palabras que nos permiten cambiar el flujo normal de un bucle. 
+
+
+
+
+
+
+
+
